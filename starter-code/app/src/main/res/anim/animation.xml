@@ -1,11 +1,17 @@
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:shareInterpolator="false"
-    android:fillAfter="false" >
+    android:fillAfter="true" >
   <alpha
-      <!--TODO: finish fading animation-->
+      android:duration="500"
+      android:fromAlpha="1.0"
+      android:toAlpha="0.0"
       />
 
   <rotate
-  <!--TODO: finish rotating animation-->
+      android:duration="500"
+      android:fromDegrees="0"
+      android:toDegrees="360"
+      android:pivotY="50%"
+      android:pivotX="50%"
     />
 </set>
